@@ -1,3 +1,13 @@
 #@baseUrl = http://localhost:3000/
 @baseUrl = https://qappservice-t1.azurewebsites.net
 get {{baseUrl}}
+
+###
+post {{baseUrl}}
+
+  {
+      "id": "2",
+      "partitionKey": "1",
+      "name": "Pawel Szymanski",
+      "email": "pawel.szymanski@wp.pl"
+  }
